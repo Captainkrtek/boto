@@ -138,13 +138,15 @@ class ProtocolIndependentOrdinaryCallingFormat(OrdinaryCallingFormat):
 class Location(object):
 
     DEFAULT = ''  # US Classic Region
-    EU = 'EU'
-    USWest = 'us-west-1'
-    USWest2 = 'us-west-2'
-    SAEast = 'sa-east-1'
-    APNortheast = 'ap-northeast-1'
-    APSoutheast = 'ap-southeast-1'
-    APSoutheast2 = 'ap-southeast-2'
+    EU = 'EU' # EU
+    EUWest1 = 'eu-west-1' # Same as EU (Ireland)
+    EUCentral1 = 'eu-central-1' # Frankfurt 
+    USWest = 'us-west-1' # N. California
+    USWest2 = 'us-west-2' # Oregon
+    SAEast = 'sa-east-1' # Sao Paulo 
+    APNortheast = 'ap-northeast-1' # Tokyo
+    APSoutheast = 'ap-southeast-1' # Singapore
+    APSoutheast2 = 'ap-southeast-2' # Sydney
     CNNorth1 = 'cn-north-1'
 
 
